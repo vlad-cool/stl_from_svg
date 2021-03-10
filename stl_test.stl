@@ -1,0 +1,218 @@
+solid svg
+facet normal 0 0 0
+outer loop
+vertex -10 -10 0
+vertex -10 10 100
+vertex -10 -10 100
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex -11 -11 100
+vertex -11 11 100
+vertex -11 -11 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex -11 -11 0
+vertex -11 11 100
+vertex -11 11 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex -11 -11 0
+vertex -11 11 0
+vertex -10 -10 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex -10 -10 0
+vertex -11 11 0
+vertex -10 10 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex -10 -10 0
+vertex -10 10 0
+vertex -10 10 100
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex -10 10 0
+vertex 10 10 100
+vertex -10 10 100
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex -11 11 100
+vertex 11 11 100
+vertex -11 11 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex -11 11 0
+vertex 11 11 100
+vertex 11 11 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex -11 11 0
+vertex 11 11 0
+vertex -10 10 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex -10 10 0
+vertex 11 11 0
+vertex 10 10 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex -10 10 0
+vertex 10 10 0
+vertex 10 10 100
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex 10 10 0
+vertex 10 -10 100
+vertex 10 10 100
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex 11 11 100
+vertex 11 -11 100
+vertex 11 11 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex 11 11 0
+vertex 11 -11 100
+vertex 11 -11 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex 11 11 0
+vertex 11 -11 0
+vertex 10 10 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex 10 10 0
+vertex 11 -11 0
+vertex 10 -10 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex 10 10 0
+vertex 10 -10 0
+vertex 10 -10 100
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex 10 -10 0
+vertex -10 -10 100
+vertex 10 -10 100
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex 11 -11 100
+vertex -11 -11 100
+vertex 11 -11 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex 11 -11 0
+vertex -11 -11 100
+vertex -11 -11 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex 11 -11 0
+vertex -11 -11 0
+vertex 10 -10 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex 10 -10 0
+vertex -11 -11 0
+vertex -10 -10 0
+endloop
+endfacet
+
+
+facet normal 0 0 0
+outer loop
+vertex 10 -10 0
+vertex -10 -10 0
+vertex -10 -10 100
+endloop
+endfacet
+
+
+endsolid svg
