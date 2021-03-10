@@ -10,8 +10,6 @@ mult = 4
 
 def ang(x, y):
     ln = math.sqrt(x ** 2 + y ** 2)
-    #if (ln == 0):
-    #    return math.pi
     try:
         sin = y / ln
         cos = x / ln

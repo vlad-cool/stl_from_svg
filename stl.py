@@ -47,10 +47,6 @@ def get_tunnel(x1, y1, x2, y2, x3, y3, x4, y4):
     ans += get_loop(x3, y3, height, x4, y4, height, x3, y3, 0) + "\n"
     ans += get_loop(x3, y3, 0, x4, y4, height, x4, y4, 0) + "\n"
 
-    
-    #ans += get_loop(x3, y3, 0, x3, y3, height, x4, y4, height) + "\n"
-    #ans += get_loop(x3, y3, 0, x4, y4, height, x4, y4, 0) + "\n"
-
     ans += get_loop(x3, y3, 0, x4, y4, 0, x1, y1, 0) + "\n"
     ans += get_loop(x1, y1, 0, x4, y4, 0, x2, y2, 0) + "\n"
 
@@ -129,15 +125,3 @@ stl.write(get_tunnel(x[le - 1] + minx, y[le - 1] + miny, x[0] + minx, y[0] + min
 stl.write("endsolid svg")
 if draw:
     turtle.exitonclick()
-
-
-stl = open('stl_test.stl', 'w')
-
-stl.write("solid svg\n")
-
-stl.write(get_tunnel(-10, -10, -10, 10, -11, -11, -11, 11))
-stl.write(get_tunnel(-10, 10, 10, 10, -11, 11, 11, 11))
-stl.write(get_tunnel(10, 10, 10, -10, 11, 11, 11, -11))
-stl.write(get_tunnel(10, -10, -10, -10, 11, -11, -11, -11))
-
-stl.write("endsolid svg")
