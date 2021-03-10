@@ -41,8 +41,8 @@ def get_tunnel(x1, y1, x2, y2, x3, y3, x4, y4):
 
     ans += get_loop(x1, y1, 0, x2, y2, height, x1, y1, height) + "\n"
 
-    #ans += get_loop(x1, y1, height, x2, y2, height, x3, y3, height) + "\n"
-    #ans += get_loop(x3, y3, height, x2, y2, height, x4, y4, height) + "\n"
+    ans += get_loop(x1, y1, height, x2, y2, height, x3, y3, height) + "\n"
+    ans += get_loop(x3, y3, height, x2, y2, height, x4, y4, height) + "\n"
 
     ans += get_loop(x3, y3, height, x4, y4, height, x3, y3, 0) + "\n"
     ans += get_loop(x3, y3, 0, x4, y4, height, x4, y4, 0) + "\n"
