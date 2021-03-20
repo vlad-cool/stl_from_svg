@@ -7,7 +7,7 @@ width = 2
 height = 100
 mult = 5
 
-draw = False
+draw = True
 swap = False
 #####################
 
